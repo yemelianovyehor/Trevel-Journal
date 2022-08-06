@@ -4,4 +4,15 @@
     color: white;
     align-items: center;
     gap:5px;
+    justify-content: center;
+    font-weight: 500;
+    letter-spacing: -0.025em;
+    border-radius: 10px 10px 0 0;
+}
+
+.container{
+    width: 720px;
+    background-color: white;
+    border-radius: 10px;
+    margin:auto;
 }

@@ -1,0 +1,65 @@
+.travelItem {
+    /* margin-left: 20px;
+    margin-right: 20px; */
+    margin-top:20px;
+    margin-bottom: 20px;
+    gap: 20px;
+}
+
+.travelItem:first-of-type{
+    margin-top: 50px;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.photo>img {
+    width: 175px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.info{
+    height: 100%;
+    color: #2B283A;
+}
+.country{
+    height: 20px;
+    align-items: baseline;
+    gap: 10px;
+}
+
+.country-name {
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 0.17em;
+    gap: 7px;
+}
+
+.pin {
+    height: 0.85em;
+}
+
+.map-link>a{
+    color: #918E9B;
+}
+
+.title>h1{
+    margin-top: 10px;
+    margin-bottom: 25px;
+    font-size: 35px;
+}
+
+.dates{
+    font-weight: 700;
+    font-size: 15px
+}
+
+.description>p{
+    margin-top: 5px;
+    font-weight: 400;
+    line-height: 150%;
+}

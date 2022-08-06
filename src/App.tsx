@@ -1,12 +1,12 @@
 import React from 'react'
 import './App.css'
-import TrevelList from '@components/TrevelList/TrevelList'
+import TravelList from '@components/TravelList/TrevelList'
 import "@img/lilPlanet.svg"
 
 
 function App() {
   return( 
-  <>
+  <div className='container'>
   <header>
     <div className="logo">
       <img src="/src/assets/img/lilPlanet.svg" alt="img" />
@@ -14,9 +14,9 @@ function App() {
     </div>
   </header>
   <main>
-    <TrevelList/>
+    <TravelList/>
     </main>
-  </>
+  </div>
   )
 }
 
