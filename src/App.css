@@ -1,0 +1,7 @@
+.logo{
+    background-color: #F55A5A;
+    display: flex;
+    color: white;
+    align-items: center;
+    gap:5px;
+}
